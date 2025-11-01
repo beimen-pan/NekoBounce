@@ -1,8 +1,5 @@
 <div align="center">
-<p>
-    <img width="250" src="https://raw.githubusercontent.com/CCBlueX/LiquidCloud/master/NekoBounce/NekoBounceLogo.svg">
-</p>
-    
+喵喵喵
 杂牌水，但是这是猫娘的水
 
 本客户端的全部源代码可自由使用与修改，我对此不持异议。无需署名作者，惟请在文件头部添加项目链接以示出处，感谢您的理解。
@@ -30,18 +27,6 @@ this project entirely or partially for free and even commercially. However, plea
 
 Do the above and share your source code with everyone; just like we do.
 
-## Setting up a Workspace
-NekoBounce is using Gradle, so make sure that it is installed properly. Instructions can be found on [Gradle's website](https://gradle.org/install/).
-1. Clone the repository using `git clone https://github.com/CCBlueX/NekoBounce/`. 
-2. CD into the local repository folder.
-3. Switch to the legacy branch using `git checkout legacy`
-4. Depending on which IDE you are using execute either of the following commands:
-    - For IntelliJ: `gradlew --debug setupDevWorkspace idea genIntellijRuns build`
-    - For Eclipse: `gradlew --debug setupDevWorkspace eclipse build`
-5. Open the folder as a Gradle project in your IDE.
-6. Select either the Forge or Vanilla run configuration.
-
-## Additional libraries
 ### Mixins
 Mixins can be used to modify classes at runtime before they are loaded. NekoBounce is using it to inject its code into the Minecraft client. This way, we do not have to ship Mojang's copyrighted code. If you want to learn more about it, check out its [Documentation](https://docs.spongepowered.org/5.1.0/en/plugin/internals/mixins.html).
 
